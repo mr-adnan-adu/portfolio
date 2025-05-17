@@ -9,18 +9,18 @@ body {
     }
 
     .navbar {
-      background-color: rgba(0, 0, 0, 0.85);
+      background-color:#4B4C51  ;
     }
 
     .section {
-      background-color: rgba(0, 0, 0, 0.75);
+      background-color: #2B2B2B;
       padding: 60px 20px;
       margin: 20px 0;
       border-radius: 10px;
     }
 
     .card {
-      background-color: #4ea9d0;
+      background-color: #BCBCBE;
       border: 2px;
       border-color: #4ea9d0;
     }

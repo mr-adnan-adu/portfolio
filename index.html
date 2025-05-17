@@ -7,6 +7,8 @@
   <title>Adnan's Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link rel="icon" href="https://img.icons8.com/nolan/64/portfolio.png">
 </head>
 
@@ -114,52 +116,77 @@
     </div>
   </section>
 
- <!-- Contact -->
-    <section id="contact" class="section text-center">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>I’m always open to connecting with new people. Whether you want to ask questions, discuss projects, or
-                just say
-                hello, feel free to get in touch!</p>
-            <hr class="my-4" />
-            <div class="row justify-content-center text-start">
-                <div class="col-md-6">
-                    <p><strong>📞 Phone:</strong> +91 95624 93851</p>
-                    <p> <strong><img
-                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1280px-Gmail_icon_%282020%29.svg.png"
-                                alt="Gmail" width="20" style="vertical-align: middle; margin-right: 5px;" /> Email:
-                        </strong><a href="mailto:adnanmuhammedkundukara@gmail.com"
-                            class="text-decoration-none text-light">adnanmuhammedkundukara@gmail.com</a> </p>
-            </div>
+  <!-- Contact -->
+  <section id="contact" class="section text-center">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>I’m always open to connecting with new people. Whether you want to ask questions, discuss projects, or
+        just say
+        hello, feel free to get in touch!</p>
+      <hr class="my-4" />
+      <div class="row justify-content-center text-start">
+        <div class="col-md-6">
+          <p><strong>📞 Phone:</strong> +91 95624 93851</p>
+          <p> <strong><img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1280px-Gmail_icon_%282020%29.svg.png"
+                alt="Gmail" width="20" style="vertical-align: middle; margin-right: 5px;" /> Email:
+            </strong><a href="mailto:adnanmuhammedkundukara@gmail.com"
+              class="text-decoration-none text-light">adnanmuhammedkundukara@gmail.com</a> </p>
         </div>
-    </section>
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-1">
-        <div class="container d-flex flex-column justify-content-center align-items-center h-100">
-            <div class="d-flex justify-content-center gap-4 mb-3">
-                <a href="https://www.instagram.com/a.d_n_a.n" target="_blank" class="text-white fs-4">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://t.me/mr_readers" target="_blank" class="text-white fs-4">
-                    <i class="fab fa-telegram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/muhammed-adnan-k-88b612281/" target="_blank" class="text-white fs-4">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://x.com/mr_adnan_adu" target="_blank" class="text-white fs-4">
-                    <i class="fab fa-x-twitter"></i>
-                </a>
-                <a href="https://github.com/mr-adnan-adu" target="_blank" class="text-white fs-4">
-                    <i class="fab fa-github"></i>
-                </a>
-            </div>
-            <p class="mb-0">&copy; 2025 Muhammed Adnan K — Made with ❤️</p>
-        </div>
-    </footer>
+      </div>
+  </section>
+<form method="POST" id="form-control" class="container mt-5">
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js.js"></script>
+    <input type="hidden" name="access_key" value="bcb42fbb-d604-464d-9a7f-f79f6c805472">
+
+    <div class="mb-3">
+      <label for="name" class="form-label">Full Name</label>
+      <input type="text" name="name" class="form-control" id="name">
+    </div>
+
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" name="email" class="form-control" id="email">
+    </div>
+
+    <div class="mb-3">
+      <label for="message" class="form-label">Message</label>
+      <textarea class="form-control" name="message" id="message" rows="3"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+  <div id="result"></div>
+  
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-1">
+    <div class="container d-flex flex-column justify-content-center align-items-center h-100">
+      <div class="d-flex justify-content-center gap-4 mb-3">
+        <a href="https://www.instagram.com/a.d_n_a.n" target="_blank" class="text-white fs-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://t.me/mr_readers" target="_blank" class="text-white fs-4">
+          <i class="fab fa-telegram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/muhammed-adnan-k-88b612281/" target="_blank" class="text-white fs-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://x.com/mr_adnan_adu" target="_blank" class="text-white fs-4">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+        <a href="https://github.com/mr-adnan-adu" target="_blank" class="text-white fs-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <p class="mb-0">&copy; 2025 Muhammed Adnan K — Made with ❤️</p>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js.js"></script>
 </body>
 
 </html>

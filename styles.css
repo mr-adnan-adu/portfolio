@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-  background-color: #4B4C51;
+  background-color: #4B4C51 !important;
 }
 
 .section {
@@ -30,8 +30,8 @@ footer {
 }
 
 /* === Project Section Styling === */
-#projects{
-    background-color: #2B2B2B;
+#projects {
+  background-color: #2B2B2B;
 }
 
 .project-img {

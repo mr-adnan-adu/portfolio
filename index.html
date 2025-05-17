@@ -122,51 +122,32 @@
     </div>
   </section>
 
-  <!-- Contact -->
-  <section id="contact" class="section text-center">
-    <div class="container">
-      <h2>Contact Me</h2>
-      <p>I’m always open to connecting with new people. Whether you want to ask questions, discuss projects, or
-        just say
-        hello, feel free to get in touch!</p>
-      <hr class="my-4" />
-      <div class="row justify-content-center text-start">
-        <div class="col-md-6">
-          <p><strong>📞 Phone:</strong> +91 95624 93851</p>
-          <p> <strong><img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1280px-Gmail_icon_%282020%29.svg.png"
-                alt="Gmail" width="20" style="vertical-align: middle; margin-right: 5px;" /> Email:
-            </strong><a href="mailto:adnanmuhammedkundukara@gmail.com"
-              class="text-decoration-none text-light">adnanmuhammedkundukara@gmail.com</a> </p>
+<!-- Contact Form -->
+          <form method="POST" id="form">
+            <input type="hidden" name="access_key" value="bcb42fbb-d604-464d-9a7f-f79f6c805472" />
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" name="name" class="form-control" id="name" required />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" name="email" class="form-control" id="email" required />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+          <div id="result" class="mt-3 text-light"></div>
         </div>
       </div>
+    </div>
   </section>
-  <form method="POST" id="form">
-
-    <input type="hidden" name="access_key" value="bcb42fbb-d604-464d-9a7f-f79f6c805472">
-
-    <div class="mb-3">
-      <label for="name" class="form-label">Full Name</label>
-      <input type="text" name="name" class="form-control" id="name">
-    </div>
-
-    <div class="mb-3">
-      <label for="email" class="form-label">Email address</label>
-      <input type="email" name="email" class="form-control" id="email">
-    </div>
-
-    <div class="mb-3">
-      <label for="message" class="form-label">Message</label>
-      <textarea class="form-control" name="message" id="message" rows="3"></textarea>
-    </div>
-
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-
-  <div id="result"></div>
 
   <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-1">
+  <footer class="bg-dark text-white text-center py-3">
     <div class="container d-flex flex-column justify-content-center align-items-center h-100">
       <div class="d-flex justify-content-center gap-4 mb-3">
         <a href="https://www.instagram.com/a.d_n_a.n" target="_blank" class="text-white fs-4">
@@ -185,7 +166,7 @@
           <i class="fab fa-github"></i>
         </a>
       </div>
-      <p class="mb-0"> 2025 Muhammed Adnan K &copy; All rights reserved.</p>
+      <p class="mb-0">2025 Muhammed Adnan K &copy; All rights reserved.</p>
     </div>
   </footer>
 

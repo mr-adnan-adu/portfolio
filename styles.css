@@ -1,0 +1,36 @@
+body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1581090700227-1e8a1d4e1c3e?auto=format&fit=crop&w=1920&q=80');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+    }
+
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.85);
+    }
+
+    .section {
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 60px 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+    }
+
+    .card {
+      background-color: #4ea9d0;
+      border: 2px;
+      border-color: #4ea9d0;
+    }
+
+    .btn-outline-light:hover {
+      background-color: #ff66c4;
+      color: #000;
+      border-color: #ff66c4;
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.9);
+    }

@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ADNAN</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  -
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar fixed-top ">
+    <div class="container">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center section" style="margin-top: 40px;">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Hey, I'm Muhammed Adnan K</h1>
+      <p class="lead">Beginner web developer</p>
+      <a href="#projects" class="btn btn-outline-light mt-3">See My Work</a>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="section text-center">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm <strong>Muhammed Adnan K</strong>, a passionate and motivated beginner web developer from India.
+        Born on <strong>18 May 2006</strong>, I've started my journey in web development by learning the fundamentals of
+        <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>.
+      </p>
+      <p>
+        I’m currently studying at <strong>bridgeOn</strong>, an institution that has been key to shaping who I am. With
+        their support,
+        I’ve built a strong foundation and the confidence to pursue a career in tech.
+      </p>
+      <p>
+        I enjoy creating responsive and user-friendly websites, and I'm always exploring new tools and technologies to
+        improve my skills.
+        My current focus is on building real-world projects to gain practical experience.
+      </p>
+      <p>
+        I’m excited about growing in the tech industry and contributing to innovative digital solutions.
+      </p>
+      <hr class="my-4" />
+      <div class="row justify-content-center mt-4 text-start">
+        <div class="col-sm-12 col-md-6">
+          <ul class="list-unstyled fs-5">
+            <li>🎓 <strong>Institution:</strong> bridgeOn</li>
+            <li>🌐 <strong>Skills:</strong> HTML, CSS, JavaScript</li>
+            <li>🎯 <strong>Goal:</strong> To become a full-stack web developer</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container text-center">
+      <h2>My Projects</h2>
+      <div class="row mt-4">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="/images/Task 4 web clone.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Web Clone</h5>
+              <p class="card-text">LinkedIn clone site</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="/images/w3school.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">My Second Project</h5>
+              <p class="card-text">create flex using Navbar .</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="/images/website.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Website <h5>
+                  <p class="card-text">My Personal Website.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section text-center">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>I’m always open to connecting with new people. Whether you want to ask questions, discuss projects, or just say
+        hello, feel free to get in touch!</p>
+      <hr class="my-4" />
+      <div class="row justify-content-center text-start">
+        <div class="col-md-6">
+          <p><strong>📞 Phone:</strong> +91 95624 93851</p>
+          <p><strong>📧 Email:</strong> adnanmuhammedkundukara@gmail.com</p>
+          <p><strong>🔗 LinkedIn:</strong> <a href="https://www.google.com" target="_blank"
+              class="text-decoration-none text-light">Visit Profile</a></p>
+          <p><strong>🌐 Portfolio:</strong> <a href="https://www.google.com" target="_blank"
+              class="text-decoration-none text-light">View Website</a></p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <form method="POST" id="form-control" class="container mt-5">
+    
+
+    <input type="hidden" name="access_key" value="bcb42fbb-d604-464d-9a7f-f79f6c805472">
+
+    <div class="mb-3">
+      <label for="name" class="form-label">Full Name</label>
+      <input type="text" name="name" class="form-control" id="name">
+    </div>
+
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" name="email" class="form-control" id="email">
+    </div>
+
+    <div class="mb-3">
+      <label for="message" class="form-label">Message</label>
+      <textarea class="form-control" name="message" id="message" rows="3"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script>
+    const form = document.getElementById('form');
+    const result = document.getElementById('result');
+
+    form.addEventListener('submit', function (e) {
+      const formData = new FormData(form);
+      e.preventDefault();
+
+      const object = Object.fromEntries(formData);
+      const json = JSON.stringify(object);
+
+      result.innerHTML = "Please wait..."
+
+      fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: json
+      })
+        .then(async (response) => {
+          let json = await response.json();
+          if (response.status === 200) {
+            result.innerHTML = json.message;
+          } else {
+            console.log(response);
+            result.innerHTML = json.message;
+          }
+        })
+        .catch(error => {
+          console.log(error);
+          result.innerHTML = "Something went wrong!";
+        })
+        .then(function () {
+          form.reset();
+          setTimeout(() => {
+            result.style.display = "none";
+          }, 3000);
+        });
+    });
+  </script>
+
+  <!-- Footer -->
+  <footer class="text-center text-white py-3">
+    <p class="mb-0">&copy; 2025 Muhammed Adnan K — Coded with passion.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
